@@ -25,3 +25,17 @@ $ curl -H 'Content-Type: application/json' -X GET http://localhost:9200/school_d
 Query school name or something related:
 
 $ curl -i -H "Accept: application/json" http://localhost:8000/school_demo/search?q=Polk%20School
+
+### Test
+$ python basic_api_tests.py -v
+it will show:
+
+tests done
+...
+----------------------------------------------------------------------
+Ran 3 tests in 88.108s
+
+OK
+
+Process finished with exit code 0
+
