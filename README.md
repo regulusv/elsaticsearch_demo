@@ -17,7 +17,7 @@ On the host system, go to root folder of the project
 $ chmod u+x setup.sh
 $ bash setup.sh
 
-## To view the data in database
+## To view the whole data 
 $ curl -H 'Content-Type: application/json' -X GET http://localhost:9200/school_demo/_search?pretty
 
 
@@ -28,7 +28,7 @@ $ curl -i -H "Accept: application/json" http://localhost:8000/school_demo/search
 
 ### Test
 $ python basic_api_tests.py -v
-it will show:
+it will show in terminal:
 
 tests done
 ...
