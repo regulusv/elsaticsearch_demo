@@ -28,14 +28,15 @@ $ curl -i -H "Accept: application/json" http://localhost:8000/school_demo/search
 
 ### Test
 $ python basic_api_tests.py -v
-it will show in terminal:
 
-tests done
+It will show in terminal:
+
+"tests done
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 88.108s
 
 OK
 
-Process finished with exit code 0
+Process finished with exit code 0"
 
